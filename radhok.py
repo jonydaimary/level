@@ -6,7 +6,7 @@ import json
 import asyncio
 import time
 
-client = commands.Bot(description="Blackfox Official Bot", command_prefix=commands.when_mentioned_or("^"), pm_help = True)
+client = commands.Bot(description="marcos Official Bot", command_prefix=commands.when_mentioned_or("/"), pm_help = True)
 client.remove_command('help')
 
 @client.event
